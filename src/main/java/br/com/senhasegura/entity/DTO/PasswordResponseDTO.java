@@ -11,7 +11,8 @@ public class PasswordResponseDTO {
 
     public PasswordResponseDTO() {}
 
-    public PasswordResponseDTO(String passwordSecurity) {
+    public PasswordResponseDTO(Long id, String passwordSecurity) {
+        this.id = id;
         this.passwordSecurity = passwordSecurity;
     }
 
